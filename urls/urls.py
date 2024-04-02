@@ -5,5 +5,7 @@ from rest_framework.views import APIView
 
 
 urlpatterns = [
-    path('',views.GetUrls.as_view())
+    path('',views.GetUrls.as_view()),
+    path('add/',views.AddUrl.as_view()),
+    path('redirecturl/',views.GetOriginalUrl.as_view()),
 ]
