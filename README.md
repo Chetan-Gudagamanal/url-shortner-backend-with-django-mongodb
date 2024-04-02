@@ -7,7 +7,7 @@ source <VIRTUAL-ENVIRONMENT-NAME>/bin/activate
 
 pip install -r requirements.txt
 
-# Create .env file inside urlShortner Dir and update values as in .env.example file
+#### Create .env file inside urlShortner Dir and update values as in .env.example file
 cp .env.example ./urlShortner/.env
 
 python manage.py runserver
